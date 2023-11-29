@@ -44,22 +44,22 @@ pip install -r requirements.txt
 
 Для запуска автотестов необходимо вводить команды в консоли терминала.
 
-Для позитивных тестов страницы регистрации:
+1. Для позитивных тестов страницы регистрации:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test1_positive_registration.py -k TestPositivePageRegistration
 
-Для позитивных тестов страницы авторизации:
+2. Для позитивных тестов страницы авторизации:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test2_positive_authorisation.py -k TestPositivePageAuthorisation
 
-Для позитивных тестов страницы восстановления пароля:
+3. Для позитивных тестов страницы восстановления пароля:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test3_positive_recovery_pass.py
 
-Для негативных тестов страницы регистрации:
+4. Для негативных тестов страницы регистрации:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test4_negative_registration.py -k TestNegativePageRegistration
 
-Для негативных тестов страницы авторизации:
+5. Для негативных тестов страницы авторизации:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test5_negative_authorisation.py -k TestNegativePageAuthorisation
 
-Для негативных тестов страницы восстановления пароля:
+6. Для негативных тестов страницы восстановления пароля:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test6_negative_recovery_pass.py -k TestNegativePageRecoveryPass
 
 <chromedriver_directory>\<chromedriver_file> - путь к директории файла драйвера\название файла браузера. Например: C:\Chrome-selenium\chromedriver.exe
