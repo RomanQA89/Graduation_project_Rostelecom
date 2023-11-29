@@ -48,9 +48,9 @@ pip install -r requirements.txt
 
        python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test1_positive_registration.py -k TestPositivePageRegistration
 
-3. Для позитивных тестов страницы авторизации:
+2. Для позитивных тестов страницы авторизации:
 
-python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test2_positive_authorisation.py -k TestPositivePageAuthorisation
+    python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test2_positive_authorisation.py -k TestPositivePageAuthorisation
 
 5. Для позитивных тестов страницы восстановления пароля:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test3_positive_recovery_pass.py
