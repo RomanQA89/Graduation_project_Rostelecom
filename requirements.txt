@@ -1,0 +1,8 @@
+pytest==6.2.5
+pytest-selenium==4.0.0
+selenium==4.9.0
+termcolor
+allure-python-commons
+requests
+python-dotenv
+faker
