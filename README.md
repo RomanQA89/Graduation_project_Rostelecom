@@ -45,7 +45,7 @@ pip install -r requirements.txt
 Для запуска автотестов необходимо вводить команды в консоли терминала.
 
 1. Для позитивных тестов страницы регистрации:
-python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test1_positive_registration.py -k TestPositivePageRegistration
+       python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test1_positive_registration.py -k TestPositivePageRegistration
 
 2. Для позитивных тестов страницы авторизации:
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test2_positive_authorisation.py -k TestPositivePageAuthorisation
