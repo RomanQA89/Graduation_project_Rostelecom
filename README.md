@@ -63,3 +63,5 @@ python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chro
 python -m pytest -v --driver Chrome --driver-path <chromedriver_directory>\<chromedriver_file> tests\test6_negative_recovery_pass.py -k TestNegativePageRecoveryPass
 
 <chromedriver_directory>\<chromedriver_file> - путь к директории файла драйвера\название файла браузера. Например: C:\Chrome-selenium\chromedriver.exe
+
+Окружение: Google Chrome Версия 119, Windows 11 Home
