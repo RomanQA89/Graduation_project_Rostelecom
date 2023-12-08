@@ -57,6 +57,9 @@ def web_browser(request, selenium):
         except:
             pass  # just ignore any errors here
 
+    # Close the browser after each test:
+    browser.close()
+
 
 def get_test_case_docstring(item):
     """ This function gets doc string from test case and format it
@@ -109,3 +112,4 @@ def pytest_collection_finish(session):
                 print(full_name)
 
         pytest.exit('Done!')
+
